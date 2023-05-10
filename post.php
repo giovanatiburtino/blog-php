@@ -1,5 +1,5 @@
 <?php
-    include_once("api/templates/header.php");
+    include_once("templates/header.php");
 
     if(isset($_GET['id'])){ // checar se há um id
         $postId = $_GET['id'];
@@ -47,5 +47,5 @@
     </main>
     <h1><?= $currentPost['title'] ?></h1>
 <?php
-    include_once("api/templates/footer.php");
+    include_once("templates/footer.php");
 ?>
